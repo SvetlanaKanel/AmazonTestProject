@@ -19,5 +19,6 @@ describe('Tests for Header', () => {
   it('US_01.02_01 | Verify that location has a notification from requirements', () => {
     header.getLocation().should('include.text', headerData.locationText);
   })
+  
 
 })

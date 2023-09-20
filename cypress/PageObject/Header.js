@@ -7,5 +7,6 @@ class Header {
     clickLogo(){
         this.getLogo().click();           
     }
+    
 }
 export default Header
