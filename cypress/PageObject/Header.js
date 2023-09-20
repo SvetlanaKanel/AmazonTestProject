@@ -8,5 +8,8 @@ class Header {
         this.getLogo().click();           
     }
     
+    clickLocation() {
+        this.getLocation().click();      
+    }
 }
 export default Header
