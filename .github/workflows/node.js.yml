@@ -27,4 +27,4 @@ jobs:
       run: npm install --no-package-lock
       
     - name: Test
-      run: npm test
+      run: npx cypress run --headless
