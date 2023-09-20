@@ -28,7 +28,7 @@ describe('Tests for Header', () => {
     locationPopUp.getHeader().should('have.text', locationPopUpData.header);
   })
 
-  it('US_01.03_01 | Verify that All dropdow menu is visible and has text All', () => {
+  it('US_01.03_01 | Verify that All dropdown menu is visible and has text All', () => {
     header.getAllDropdown().should('be.visible')
       .and('have.text', headerData.AllDropdownText);
   })
