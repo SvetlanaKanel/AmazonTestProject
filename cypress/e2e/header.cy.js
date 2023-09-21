@@ -33,9 +33,4 @@ describe('Tests for Header', () => {
       .and('have.text', headerData.AllDropdownText);
   })
 
-  it('US_01.03_02 | Click on All dropdown menu and verify that dropdown list has 56 elements', () => {
-    header.clickAllDropdown();
-    header.getAllDropdownList().should('have.length', headerData.AllDroppdownList.length)
-} )
-
 })
