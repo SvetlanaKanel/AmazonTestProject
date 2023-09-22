@@ -45,4 +45,8 @@ describe('Tests for Header', () => {
     })
   })
 
+  it('US_01.04_01 | Verify that search input field placeholder is equal "Search Amazon"', () => {
+    header.getSearchInputField().invoke('attr', 'placeholder').should('eq', headerData.searchInputPlaceholder);
+  })
+
 })
