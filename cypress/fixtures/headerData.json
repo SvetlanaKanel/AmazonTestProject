@@ -59,5 +59,6 @@
     "Under $10",
     "Video Games",
     "Whole Foods Market"
-  ]
+  ],
+  "searchInputPlaceholder": "Search Amazon"
 }

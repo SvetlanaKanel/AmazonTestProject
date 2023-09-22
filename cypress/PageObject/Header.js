@@ -4,6 +4,7 @@ class Header {
     getLocation = () => cy.get('#nav-global-location-popover-link');
     getAllDropdown = () => cy.get('#nav-search-label-id');
     getAllDropdownList = () => cy.get('.nav-progressive-search-dropdown > option');
+    getSearchInputField = () => cy.get('.nav-search-field input');
 
     //methods
     clickLogo(){
