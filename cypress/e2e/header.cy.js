@@ -38,4 +38,11 @@ describe('Tests for Header', () => {
     header.getAllDropdownList().should('have.length', headerData.AllDroppdownList.length)
   })
 
+  headerData.AllDroppdownList.forEach((optionName, idx) => {
+    it(`US_01.03_03 | Verify that option name from  All dropdown list is equal ${optionName}`, () => {
+      header.clickAllDropdown();
+      header.getAllDropdownList().eq(idx).should('include.text', headerData.AllDroppdownList[idx])
+    })
+  })
+
 })
