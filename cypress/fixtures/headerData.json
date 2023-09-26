@@ -2,7 +2,7 @@
   "logoURL": "ref=nav_logo",
   "locationText": "Choose location for most accurate options",
   "AllDropdownText": "All",
-  "AllDroppdownList": [
+  "dropdownList": [
     "All Departments", 
     "Alexa Skills",
     "Amazon Devices",
